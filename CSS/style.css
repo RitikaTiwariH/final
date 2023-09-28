@@ -1,0 +1,90 @@
+body{
+  background-image: linear-gradient(180deg,#006663,#111111);
+    height: 97vh;
+}
+.imgs{
+    display: -webkit-box;
+}
+.imgs img{
+    width: 59px;
+}
+nav{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.container{
+    border: 8px solid rgb(4, 4, 29);
+    margin: auto;
+    border-radius: 10px;
+    max-width: 900px;
+    height: 70vh;
+    color: black;
+    overflow-y: auto;
+}
+.message{
+    width: 36%;
+    background-color: rgb(119, 114, 114);
+    border: 2px solid rgb(153, 149, 149);
+    margin: 12px 6px;
+    padding:10px;
+    border-radius: 10px;
+}
+.left{
+    float:left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+.forms {
+  width: 69%;
+  margin: auto;
+}
+#messcontainer{
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 75%;
+}
+
+#messinp{
+    width: 88%;
+    border: 2px solid rgb(7, 7, 37);
+    height: 5vh;
+    border-radius: 5px;
+}
+#btn{
+    font-size: clamp(18px,20%,25px);
+    text-decoration: none;
+    border: 4px solid rgb(7,7,37);
+    border-radius: 5px;
+    height: 6vh;
+    width: 10%;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .forms{
+        width: 100%;
+        margin: auto;
+    }
+    #btn{
+        width:20%;
+    }
+    #send-container{
+        display: flex;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1000px){
+    .forms{
+        width: 100%;
+        margin: auto;
+    }
+    #btn{
+        width:20%;
+    }
+    #send-container{
+        display: flex;
+    }
+}
